@@ -8,7 +8,8 @@ project_name = 'MLProject_With_MLFLOW'
 
 
 list_of_files = [
-    ".github/workflow/.gitkeep"
+    ".github/workflow/.gitkeep",
+    f"src/{project_name}/",
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/component/__init__.py",
     f"src/{project_name}/utils/__init__.py",
