@@ -2,6 +2,7 @@ from src.MLProject_With_MLFLOW import logger
 from src.MLProject_With_MLFLOW.pipeline.stage_01_data_ingestion import DataIngestionPipeline
 from src.MLProject_With_MLFLOW.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from src.MLProject_With_MLFLOW.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from src.MLProject_With_MLFLOW.pipeline.stage_04_model_trainer import ModelTrainingPipeline
 
 
 
@@ -47,4 +48,23 @@ try:
         logger.info(f">>>>>>>> {STAGE_NAME} is completed <<<<<<<<< ")
 
 except Exception as e:
+        raise e
+
+
+
+
+
+STAGE_NAME = "Model Training Stage"
+
+try:
+        
+        logger.info(f">>>>>>>>>>{STAGE_NAME} is started <<<<<<<<<")
+
+        obj = ModelTrainingPipeline()
+        obj.main()
+
+        logger.info(f">>>>>>>>{STAGE_NAME} is completed")
+
+except Exception  as e :
+        logger.info(e)
         raise e

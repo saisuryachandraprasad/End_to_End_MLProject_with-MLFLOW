@@ -29,4 +29,5 @@ if __name__ =="__main__":
         logger.info(f">>>>>>>stage {STAGE_NAME} completed <<<<<<<<")
 
     except Exception as e:
+        logger.info(e)
         raise e
