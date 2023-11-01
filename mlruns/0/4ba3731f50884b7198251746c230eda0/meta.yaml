@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/End_to_End_MLProject_with-MLFLOW/mlruns/0/4ba3731f50884b7198251746c230eda0/artifacts
+end_time: 1698831932467
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ba3731f50884b7198251746c230eda0
+run_name: casual-dog-448
+run_uuid: 4ba3731f50884b7198251746c230eda0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698831926652
+status: 3
+tags: []
+user_id: sai chandra prasad

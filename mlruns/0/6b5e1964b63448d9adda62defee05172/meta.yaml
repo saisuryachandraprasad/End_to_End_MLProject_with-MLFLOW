@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/End_to_End_MLProject_with-MLFLOW/mlruns/0/6b5e1964b63448d9adda62defee05172/artifacts
+end_time: 1698831719994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b5e1964b63448d9adda62defee05172
+run_name: clumsy-rat-370
+run_uuid: 6b5e1964b63448d9adda62defee05172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698831713924
+status: 3
+tags: []
+user_id: sai chandra prasad
